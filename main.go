@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"errors"
-  "fmt"
+	"fmt"
 	"net"
 	"os"
 	"os/signal"
@@ -19,8 +19,8 @@ import (
 )
 
 const (
-	host = "localhost"
-	port = "23234"
+	host = "0.0.0.0"
+	port = "4305"
 )
 
 //go:embed cat.txt
